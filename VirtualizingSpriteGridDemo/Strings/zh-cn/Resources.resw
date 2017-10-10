@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Main_Title.Text" xml:space="preserve">
-    <value>Main</value>
+    <value>主页</value>
     <comment>Page title for Main</comment>
   </data>
   <data name="Shell_Main" xml:space="preserve">
-    <value>Main</value>
+    <value>N2Engine 原型展览</value>
     <comment>Navigation view item name for Main</comment>
   </data>
-  <data name="HorizontalSpriteEntityGrid_Pivot.Text" xml:space="preserve">  
-    <value>HorizontalSpriteEntityGrid</value>
+  <data name="HorizontalSpriteEntityGrid_Pivot.Text" xml:space="preserve">
+    <value>横向实体网格</value>
     <comment>Page title for HorizontalSpriteEntityGrid</comment>
   </data>
-  <data name="HorizontalSpriteEntityGrid_PivotItem1.Header" xml:space="preserve">  
-    <value>Item 1</value>
+  <data name="HorizontalSpriteEntityGrid_PivotItem1.Header" xml:space="preserve">
+    <value>演示</value>
     <comment>First Pivot item title for HorizontalSpriteEntityGrid</comment>
   </data>
   <data name="HorizontalSpriteEntityGrid_PivotItem2.Header" xml:space="preserve">
-    <value>Item 2</value>
+    <value>代码</value>
     <comment>Second Pivot item title for HorizontalSpriteEntityGrid</comment>
   </data>
   <data name="Shell_HorizontalSpriteEntityGrid" xml:space="preserve">
-    <value>HorizontalSpriteEntityGrid</value>
+    <value>横向实体网格</value>
     <comment>Navigation view item name for HorizontalSpriteEntityGrid</comment>
   </data>
-  <data name="VerticalSpriteEntityGrid_Pivot.Text" xml:space="preserve">  
-    <value>VerticalSpriteEntityGrid</value>
+  <data name="VerticalSpriteEntityGrid_Pivot.Text" xml:space="preserve">
+    <value>虚拟化实体网格</value>
     <comment>Page title for VerticalSpriteEntityGrid</comment>
   </data>
-  <data name="VerticalSpriteEntityGrid_PivotItem1.Header" xml:space="preserve">  
-    <value>Item 1</value>
+  <data name="VerticalSpriteEntityGrid_PivotItem1.Header" xml:space="preserve">
+    <value>演示</value>
     <comment>First Pivot item title for VerticalSpriteEntityGrid</comment>
   </data>
   <data name="VerticalSpriteEntityGrid_PivotItem2.Header" xml:space="preserve">
-    <value>Item 2</value>
+    <value>代码</value>
     <comment>Second Pivot item title for VerticalSpriteEntityGrid</comment>
   </data>
   <data name="Shell_VerticalSpriteEntityGrid" xml:space="preserve">
-    <value>VerticalSpriteEntityGrid</value>
+    <value>纵向实体网格</value>
     <comment>Navigation view item name for VerticalSpriteEntityGrid</comment>
   </data>
-  <data name="SpriteEntityGrid_Pivot.Text" xml:space="preserve">  
-    <value>SpriteEntityGrid</value>
+  <data name="SpriteEntityGrid_Pivot.Text" xml:space="preserve">
+    <value>虚拟化实体网格</value>
     <comment>Page title for SpriteEntityGrid</comment>
   </data>
-  <data name="SpriteEntityGrid_PivotItem1.Header" xml:space="preserve">  
-    <value>Item 1</value>
+  <data name="SpriteEntityGrid_PivotItem1.Header" xml:space="preserve">
+    <value>演示</value>
     <comment>First Pivot item title for SpriteEntityGrid</comment>
   </data>
   <data name="SpriteEntityGrid_PivotItem2.Header" xml:space="preserve">
-    <value>Item 2</value>
+    <value>代码</value>
     <comment>Second Pivot item title for SpriteEntityGrid</comment>
   </data>
   <data name="Shell_SpriteEntityGrid" xml:space="preserve">
-    <value>SpriteEntityGrid</value>
+    <value>虚拟化实体网格</value>
     <comment>Navigation view item name for SpriteEntityGrid</comment>
   </data>
   <data name="PerformanceTests_Title.Text" xml:space="preserve">
-    <value>PerformanceTests</value>
+    <value>性能测试</value>
     <comment>Page title for PerformanceTests</comment>
   </data>
   <data name="Shell_PerformanceTests" xml:space="preserve">
-    <value>PerformanceTests</value>
+    <value>性能测试</value>
     <comment>Navigation view item name for PerformanceTests</comment>
   </data>
   <data name="ExceptionSettingsStorageExtensionsFileNameIsNullOrEmpty" xml:space="preserve">
@@ -186,93 +186,82 @@
     <comment>File name is null or empty to save file in settings storage extensions</comment>
   </data>
   <data name="Settings_Title.Text" xml:space="preserve">
-    <value>Settings</value>
+    <value>设置</value>
     <comment>Page title for Settings</comment>
   </data>
   <data name="Settings_Theme.Text" xml:space="preserve">
-    <value>Choose Theme</value>
+    <value>选择主题</value>
     <comment>Choose theme text for Settings</comment>
   </data>
   <data name="Settings_Theme_Dark.Content" xml:space="preserve">
-    <value>Dark</value>
+    <value>深色</value>
     <comment>Dark theme text for Settings</comment>
   </data>
   <data name="Settings_Theme_Default.Content" xml:space="preserve">
-    <value>Windows default</value>
+    <value>Windows 默认</value>
     <comment>Windows default theme text for Settings</comment>
   </data>
   <data name="Settings_Theme_Light.Content" xml:space="preserve">
-    <value>Light</value>
+    <value>浅色</value>
     <comment>Light theme text for Settings</comment>
   </data>
-  <data name="Settings_About.Text" xml:space="preserve">    
-    <value>About this application</value>
+  <data name="Settings_About.Text" xml:space="preserve">
+    <value>关于此应用</value>
     <comment>About this application title for Settings</comment>
   </data>
-  <data name="Settings_AboutDescription.Text" xml:space="preserve">    
-    <value>Settings page placeholder text.  Your app description goes here.</value>
+  <data name="Settings_AboutDescription.Content" xml:space="preserve">
+    <value>在 GitHub 查看</value>
     <comment>About this application description for Settings</comment>
   </data>
-  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">    
-    <value>Privacy Statement</value>
+  <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">
+    <value>隐私声明</value>
     <comment>Privacy Statement link content for Settings</comment>
   </data>
-  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">  
-    <value>https://YourPrivacyUrlGoesHere/</value>
+  <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">
+    <value>https://nukepayload2.github.io/GenericPrivacyStatement/</value>
     <comment>Here is your Privacy Statement url for Settings</comment>
   </data>
-  <data name="Settings_Personalization.Text" xml:space="preserve">   
-    <value>Personalization</value>
+  <data name="Settings_Personalization.Text" xml:space="preserve">
+    <value>个性化</value>
     <comment>Personalization text for Settings</comment>
   </data>
-  <data name="ExceptionEnumToBooleanConverterValueMustBeAnEnum" xml:space="preserve">   
+  <data name="ExceptionEnumToBooleanConverterValueMustBeAnEnum" xml:space="preserve">
     <value>value must be an Enum!</value>
     <comment>Value must be an Enum in enum to boolean converter</comment>
   </data>
-  <data name="ExceptionEnumToBooleanConverterParameterMustBeAnEnumName" xml:space="preserve">   
+  <data name="ExceptionEnumToBooleanConverterParameterMustBeAnEnumName" xml:space="preserve">
     <value>parameter must be an Enum name!</value>
     <comment>Parameter must be an Enum name in enum to boolean converter</comment>
   </data>
-  NavigateUri
   <data name="Shell_Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>设置</value>
     <comment>Navigation view item name for Settings</comment>
   </data>
   <data name="FirstRun_Body.Text" xml:space="preserve">
-    <value>Replace the content of this dialog with whatever content is appropriate to your app.
-You might want to explain key features or functionality.
-Don't feel restricted to just text. You can also include images and animations if you wish too.
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</value>
+    <value>本应用展示的原型包括: 
+横向实体网格, 纵向实体网格 和 虚拟化实体网格。
+横向实体网格支持横向虚拟化和横向方格压缩存储。即使横向有10万格也不会导致内存占用变得不可接受。适合超级马里奥这样的横板游戏。
+纵向实体网格支持纵向虚拟化和纵向方格压缩存储。即使纵向有10万格也不会导致内存过多占用。适合魂斗罗纵向瀑布关这样的场景。
+虚拟化实体网格改进之前的 SpriteEntityGrid 控件。为较大的方形场景提供虚拟化支持。</value>
     <comment>First use prompt message body</comment>
-  </data>  
+  </data>
   <data name="FirstRun_Title.Text" xml:space="preserve">
-    <value>Welcome</value>
+    <value>欢迎查看 N2Engine 原型展览</value>
     <comment>First use prompt message title</comment>
   </data>
   <data name="AfterUpdate_Body.Text" xml:space="preserve">
-    <value>Replace the content of this dialog with whatever content is appropriate to your app.
-You might want to consider lists of bug fixes and new features.
-Don't feel restricted to just text. You can also include images and animations if you wish too.
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</value>
+    <value>初始提交。</value>
     <comment>What's new prompt message body</comment>
   </data>
   <data name="AfterUpdate_Title.Text" xml:space="preserve">
-    <value>What's new in this version</value>
+    <value>此版本的更新内容</value>
     <comment>What's new prompt message title</comment>
   </data>
   <data name="UriSchemeExample_Title.Text" xml:space="preserve">
-    <value>URI Scheme Example</value>
+    <value>正在跳转</value>
     <comment>Page Title for URI Scheme Example</comment>
+  </data>
+  <data name="Settings_AboutDescription.NavigateUri" xml:space="preserve">
+    <value>https://github.com/Nukepayload2/VirtualizingSpriteGridDemo</value>
   </data>
 </root>

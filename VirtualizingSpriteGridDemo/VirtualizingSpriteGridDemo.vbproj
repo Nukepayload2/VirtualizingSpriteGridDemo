@@ -129,7 +129,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <PRIResource Include="Strings\en-us\Resources.resw" />
+    <PRIResource Include="Strings\zh-cn\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activation\ActivationHandler.vb" />
@@ -173,9 +173,7 @@
     <Compile Include="Helpers\ResourceExtensions.vb" />
     <Compile Include="Helpers\Singleton.vb" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="My Project\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
