@@ -16,7 +16,7 @@ Public Class HorizontalTileStorage
     Private _rows As List(Of TileList)()
 
     ''' <summary>
-    ''' 获取一个范围内非空气的方块的稀疏表示（从 0 开始）。
+    ''' 获取一个范围内非空气的方块的稀疏表示（从 0 开始）。通常用于渲染。
     ''' </summary>
     ''' <param name="fromX">从 X 坐标</param>
     ''' <param name="fromY">从 Y 坐标</param>
@@ -99,6 +99,15 @@ Public Class HorizontalTileStorage
     ''' <summary>
     ''' 将指定行的一个区域中的所有方块消除。
     ''' </summary>
+    Public Sub EraseTiles(row As Integer, start As Integer, length As Integer)
+        Debug.Assert(row >= 0, "起始行号必须大于等于 0.")
+        Debug.Assert(row < _rows.Length, "起始行号必须小于行数 (高度).")
+        EraseTiles(_rows(row), start, length)
+    End Sub
+
+    ''' <summary>
+    ''' 将指定行的一个区域中的所有方块消除。
+    ''' </summary>
     Public Sub EraseTiles(curRow As List(Of TileList), start As Integer, length As Integer)
         For i = curRow.Count - 1 To 0 Step -1
             ' 尾部相交: 缩短 RepeatCount
@@ -108,6 +117,7 @@ Public Class HorizontalTileStorage
             If tl.StartIndex >= start Then
                 If tl.StartIndex + tl.RepeatCount <= start + length Then
                     ' 包含
+                    tl.Collier.Dispose()
                     curRow.RemoveAt(i)
                 Else
                     ' 头部相交
@@ -124,7 +134,7 @@ Public Class HorizontalTileStorage
     End Sub
 
     ''' <summary>
-    ''' 获取或设定指定位置的单个方块。此属性不宜在循环中使用。
+    ''' 获取或设定指定位置的单个方块。此属性不宜在循环中使用 (尤其是设置值)。
     ''' </summary>
     ''' <param name="fromX">从 X 坐标</param>
     ''' <param name="fromY">从 Y 坐标</param>
